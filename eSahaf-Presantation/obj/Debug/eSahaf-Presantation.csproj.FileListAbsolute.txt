@@ -1,0 +1,82 @@
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\roslyn\csc.exe
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\roslyn\vbc.exe
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\roslyn\VBCSCompiler.exe
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-Presantation.dll.config
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-Presantation.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-Presantation.pdb
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\EntityFramework.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\EntityFramework.SqlServer.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-BLL.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-DAL.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Helpers.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Mvc.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Razor.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Webpages.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Webpages.Razor.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-BLL.pdb
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-DAL.pdb
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\EntityFramework.xml
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\EntityFramework.SqlServer.xml
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Razor.xml
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Webpages.xml
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Webpages.Razor.xml
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Helpers.xml
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Mvc.xml
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\obj\Debug\eSahaf-Presantation.csprojResolveAssemblyReference.cache
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\obj\Debug\eSahaf-Presantation.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-Presantation\obj\Debug\eSahaf-Presantation.pdb
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\roslyn\csc.exe
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\roslyn\vbc.exe
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\roslyn\VBCSCompiler.exe
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-Presantation.dll.config
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-Presantation.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-Presantation.pdb
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\EntityFramework.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\EntityFramework.SqlServer.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-BLL.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-DAL.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Helpers.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Mvc.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Razor.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Webpages.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Webpages.Razor.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-BLL.pdb
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\eSahaf-DAL.pdb
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\EntityFramework.xml
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\EntityFramework.SqlServer.xml
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Razor.xml
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Webpages.xml
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Webpages.Razor.xml
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Helpers.xml
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\bin\System.Web.Mvc.xml
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\obj\Debug\eSahaf-Presantation.csprojResolveAssemblyReference.cache
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\obj\Debug\eSahaf-Presantation.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-Presantation\obj\Debug\eSahaf-Presantation.pdb

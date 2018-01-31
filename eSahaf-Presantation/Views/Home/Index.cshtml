@@ -1,0 +1,10 @@
+﻿@model List<eSahaf_DAL.Core.Books>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@Html.Action("BestSeller", "Partials");
+@Html.Action("JustArrived", "Partials");
+@Html.Action("WhatWereReading", "Partials");
+

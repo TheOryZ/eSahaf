@@ -1,0 +1,72 @@
+﻿@model List<eSahaf_DAL.Core.Books>
+
+@{
+    ViewBag.Title = "Products";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+              <!-- page start-->
+<section class="panel">
+    <header class="panel-heading">
+        Books List
+    </header>
+    <div class="panel-body">
+        <div class="adv-table editable-table ">
+            <br />
+            <div class="clearfix">
+                <div class="btn-group">
+                    <a href="/Admin/AddNewProduct" class="btn btn-success">
+                        Add New <i class="icon-plus"></i>
+                    </a>
+                </div>
+            </div>
+            <br />
+            <div class="space15"></div>
+            <table class="table table-striped table-hover table-bordered" id="editable-sample">
+                <thead>
+                    <tr>
+                        <th>Book Name</th>
+                        <th>Book Type</th>
+                        <th>Writer Name</th>
+                        <th>Publisher</th>
+                        <th>Release Date</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Are We Read</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="">
+                            <td class="center">@item.BookName</td>
+                            <td class="center">@item.bookType.BookTypeName</td>
+                            <td class="center">@item.writer.WriterName</td>
+                            <td class="center">@item.publisher.PublisherName</td>
+                            <td class="center">@item.ReleaseDate</td>
+                            <td class="center">@item.Quantity</td>
+                            <td class="center">@item.Price</td>
+                            <td class="center">@item.AreWeRead</td>
+                            <td><a class="edit" href="/Admin/EditProduct/@item.BookID">
+                                <li class="icon-pencil">
+                                    Edit
+                                </li>
+                                </a>
+                            </td>
+                            <td><a class="delete" href="@Url.Action("DeleteProduct","Admin", new {BookID = item.BookID })">
+                                <li class="icon-trash">
+                                    Delete
+                                </li>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+<!-- page end-->
+

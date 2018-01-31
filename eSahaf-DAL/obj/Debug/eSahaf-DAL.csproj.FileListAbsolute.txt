@@ -1,0 +1,20 @@
+c:\users\theory z\documents\visual studio 2015\Projects\eSahafProjesi\eSahaf-DAL\bin\Debug\eSahaf-DAL.dll.config
+c:\users\theory z\documents\visual studio 2015\Projects\eSahafProjesi\eSahaf-DAL\bin\Debug\eSahaf-DAL.dll
+c:\users\theory z\documents\visual studio 2015\Projects\eSahafProjesi\eSahaf-DAL\bin\Debug\eSahaf-DAL.pdb
+c:\users\theory z\documents\visual studio 2015\Projects\eSahafProjesi\eSahaf-DAL\bin\Debug\EntityFramework.dll
+c:\users\theory z\documents\visual studio 2015\Projects\eSahafProjesi\eSahaf-DAL\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\theory z\documents\visual studio 2015\Projects\eSahafProjesi\eSahaf-DAL\bin\Debug\EntityFramework.xml
+c:\users\theory z\documents\visual studio 2015\Projects\eSahafProjesi\eSahaf-DAL\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\theory z\documents\visual studio 2015\Projects\eSahafProjesi\eSahaf-DAL\obj\Debug\eSahaf-DAL.csprojResolveAssemblyReference.cache
+c:\users\theory z\documents\visual studio 2015\Projects\eSahafProjesi\eSahaf-DAL\obj\Debug\eSahaf-DAL.dll
+c:\users\theory z\documents\visual studio 2015\Projects\eSahafProjesi\eSahaf-DAL\obj\Debug\eSahaf-DAL.pdb
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-DAL\bin\Debug\eSahaf-DAL.dll.config
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-DAL\bin\Debug\eSahaf-DAL.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-DAL\bin\Debug\eSahaf-DAL.pdb
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-DAL\bin\Debug\EntityFramework.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-DAL\bin\Debug\EntityFramework.xml
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-DAL\obj\Debug\eSahaf-DAL.csprojResolveAssemblyReference.cache
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-DAL\obj\Debug\eSahaf-DAL.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-DAL\obj\Debug\eSahaf-DAL.pdb

@@ -1,0 +1,60 @@
+﻿@model List<eSahaf_DAL.Core.BooksType>
+
+@{
+    ViewBag.Title = "BookTypes";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<section class="panel">
+    <header class="panel-heading">
+        Book Types List
+    </header>
+    <div class="panel-body">
+        <div class="adv-table editable-table ">
+            <br />
+            <div class="clearfix">
+                <div class="btn-group">
+                    <a href="/Admin/AddNewBookType" class="btn btn-success">
+                        Add New <i class="icon-plus"></i>
+                    </a>
+                </div>
+            </div>
+            <br />
+            <div class="space15"></div>
+            <table class="table table-striped table-hover table-bordered" id="editable-sample">
+                <thead>
+                    <tr>
+                        <th>Book Type Name</th>
+                        <th>Explanation</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="">
+                            <td class="center">@item.BookTypeName</td>
+                            <td class="center">@item.Explanation</td>
+                            <td>
+                                <a class="edit" href="/Admin/EditBookTypes/@item.BooksTypeID">
+                                    <li class="icon-pencil">
+                                        Edit
+                                    </li>
+                                </a>
+                            </td>
+                            <td>
+                                <a class="delete" href="@Url.Action("DeleteBookTypes","Admin", new {BookTypeID = item.BooksTypeID })">
+                                    <li class="icon-trash">
+                                        Delete
+                                    </li>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+

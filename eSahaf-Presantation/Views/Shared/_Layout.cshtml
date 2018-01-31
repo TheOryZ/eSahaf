@@ -1,0 +1,175 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!--theme-style-->
+    <link href="~/Content/Css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="eSAHAF Kitabevi, Sahaf, e-Kitap, Kitap, Yazar, Kadir Turan, Sahaf, Kitabevi" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Amaranth:400,700' rel='stylesheet' type='text/css' />
+    <!-- start menu -->
+    <link href="~/Content/Css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+    <div class="header">
+        <div class="top-header">
+            <div class="container">
+                <div class="top-head">
+                    <div class="header-para">
+                        <ul class="social-in">
+                            <li><a href="#"><i> </i></a></li>
+                            <li><a href="#"><i class="ic"> </i></a></li>
+                            <li><a href="#"><i class="ic1"> </i></a></li>
+
+                        </ul>
+                    </div>
+                    <ul class="header-in">
+                        <li><a href="/Home/Index">  Home</a></li>
+                        <li><a href="/Home/About">about us</a> </li>
+                        <li><a href="/Home/Contact">   contact us</a></li>
+                    </ul>
+                    <div class="search-top">
+                        <div class="search">
+                            <form>
+                                <input type="text" value="search about something ?" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'search about something ?';}">
+                                <input type="submit" value="">
+                            </form>
+                        </div>
+                        <div class="header-in">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <li><a href="/User/LogOut">   Log Out</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="/User/LogIn">   Log In</a></li>
+                            }
+                            <li><a href="/User/SignIn">   Sign In</a></li>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Middle -->
+    <div class="header-top">
+        <div class="container">
+            <div class="head-top">
+                <div class="logo">
+                    <a href="/Home/Index"><img src="~/Content/Images/logo.png" alt=""></a>
+                </div>
+                <div class="top-nav">
+                    <ul class="megamenu skyblue">
+                        <li class="grid"><a href="/Home/Category">Category</a></li>
+                        <li><a href="/Home/Writers">Writers</a></li>
+                        <li class="grid"><a href="/Home/Publisher">Publisher</a></li>
+                        <li class="grid"><a href="/Home/BestSeller">BestSeller</a></li>
+                        <li><a href="/Home/JustArrived">Just Arrived</a></li>
+                        <li><a href="/Home/WhatWereReading">What We're Reading ?</a></li>
+                    </ul>
+                </div>
+                @{ 
+                    Html.RenderAction("Basket", "Partials");
+                }
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        @RenderBody();
+    </div>
+    <div class="col-md-2"></div>
+
+
+
+    <!--Footer Alanı -->
+    <div class="footer">
+        <div class="container">
+            <div class="col-md-3 footer-left">
+                <a href="/Home/Index"><img src="~/Content/Images/logo.png" alt=""></a>
+                <p class="footer-class">© 2017 eSahaf Book Sale | Template by <a href="#"> Kadir Turan</a> </p>
+            </div>
+            <div class="col-md-2 footer-middle">
+                <ul>
+                    <li><a href="/Home/About">about us</a> </li>
+                    <li><a href="/Home/Contact">   contact us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 footer-left-in">
+                <ul class="term">
+                    <li><a href="/Home/Category">Category</a> </li>
+                    <li><a href="/Home/Writers">  Writers</a></li>
+                    <li><a href="/Home/Publisher">  Publisher</a></li>
+                </ul>
+                <ul class="term">
+                    <li><a href="/Home/BestSeller">Best Seller</a> </li>
+                    <li><a href="/Home/JustArrived">  Just Arrived</a></li>
+                    <li><a href="/Home/WhatWereReading">  What we're Reading ?</a></li>
+
+                </ul>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="col-md-3 footer-right">
+                <h5>WE SUPPORT</h5>
+                <ul>
+                    <li><a href="#"><i> </i></a> </li>
+                    <li><a href="#"><i class="we"> </i></a></li>
+                    <li><a href="#"><i class="we-in"> </i></a></li>
+                    <li><a href="#"><i class="we-at"> </i></a></li>
+                    <li><a href="#"><i class="we-at-at"> </i></a></li>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear'
+					 		};
+							*/
+
+							$().UItoTop({ easingType: 'easeOutQuart' });
+
+						});
+        </script>
+        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    </div>
+
+
+
+
+    <script src="~/Content/js/jquery.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/move-top.js"></script>
+    <script type="text/javascript" src="~/Content/js/easing.js"></script>
+    <script type="text/javascript">
+				    jQuery(document).ready(function($) {
+					    $(".scroll").click(function(event){
+						    event.preventDefault();
+						    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+					    });
+				    });
+    </script>
+    <script type="text/javascript" src="~/Content/js/megamenu.js"></script>
+    <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+    <script src="~/Content/js/simpleCart.min.js"> </script>
+</body>
+</html>

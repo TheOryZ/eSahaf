@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "AddNewWriter";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                Add New Writer Type
+            </header>
+            <div class="panel-body">
+                <form class="form-horizontal tasi-form" method="post" action="/Admin/AddNewWriter">
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">Writer Name :</label>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" name="WriterName">
+                        </div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">About :</label>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" name="About">
+                        </div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-offset-2 col-lg-10">
+                            <button class="btn btn-danger" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</div>
+
+

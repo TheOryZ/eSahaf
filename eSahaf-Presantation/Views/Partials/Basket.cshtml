@@ -1,0 +1,22 @@
+﻿@model eSahaf_BLL.Models.Basket
+
+
+<div class="cart box_1">
+    <a href="Checkout.aspx">
+        <h3>
+            <div class="total">
+                @if (Model != null)
+                {
+                    <span>@Model.AllTotal.ToString()   TL</span>  <span> @Model.Books.Sum(x => x.Copy) items </span>
+                }
+                else
+                {
+                    <span> 0  TL</span>  <span> 0 items </span>
+                }
+            </div>
+            <img src="~/Content/Images/cart.png" alt="" />
+        </h3>
+    </a>
+    <p><a href="#" class="simpleCart_empty"><img src="~/Content/Images/cart-c.png" alt=""></a></p>
+    <div class="clearfix"> </div>
+</div>

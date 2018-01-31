@@ -1,0 +1,45 @@
+﻿@model List<eSahaf_DAL.Core.Books>
+
+<link href="~/Content/Css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Pacifico&subset=latin-ext,vietnamese" rel="stylesheet" />
+<!-- Website Font style -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" />
+<link rel="stylesheet" href="~/Content/Css/product.css" />
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=latin-ext,vietnamese" rel="stylesheet" />
+
+
+<div class="section clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a href="#"><h2 class="new">WHAT WE'RE READING ??</h2></a> <br />
+                @{
+                    foreach (var item in Model)
+                    {
+                        <div class="col-md-3 col-sm-6" style="width:275px; height:550px;">
+                            <span class="thumbnail">
+                                <a href="#"><img src="~/@item.ImagePath" alt="..." width="180" height="200"></a>
+                                    <h4>@item.BookName</h4>
+                                    <div>
+                                        <p><h6>@item.writer.WriterName</h6></p>
+                                    </div>
+                                    <p><h6>@item.publisher.PublisherName</h6></p>
+                                    <br class="line">
+                                    <div class="row">
+                                        <div class="col-md-8 col-sm-8">
+                                            <p class="price"><h3 id="Price">@item.Price TL</h3></p>
+                                        </div>
+                                        <div class="col-md-4 col-sm-4">
+                                            <input type="submit" ID="btnBuyItem" Class="btn btn-info right" Text="Buy Item" />
+                                        </div>
+                                    </div>
+</span>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>

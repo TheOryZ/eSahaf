@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "AddNewPublisher";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                Add New Publisher Type
+            </header>
+            <div class="panel-body">
+                <form class="form-horizontal tasi-form" method="post" action="/Admin/AddNewPublisher">
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">Publisher Name :</label>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" name="PublisherName">
+                        </div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">Phone :</label>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" name="Phone">
+                        </div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">Address :</label>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" name="Address">
+                        </div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">Email :</label>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" name="Email">
+                        </div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-offset-2 col-lg-10">
+                            <button class="btn btn-danger" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</div>
+

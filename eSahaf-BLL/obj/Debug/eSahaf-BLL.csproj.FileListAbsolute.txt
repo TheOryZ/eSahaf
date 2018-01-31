@@ -1,0 +1,24 @@
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-BLL\bin\Debug\eSahaf-BLL.dll.config
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-BLL\bin\Debug\eSahaf-BLL.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-BLL\bin\Debug\eSahaf-BLL.pdb
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-BLL\bin\Debug\EntityFramework.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-BLL\bin\Debug\eSahaf-DAL.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-BLL\bin\Debug\eSahaf-DAL.pdb
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-BLL\bin\Debug\EntityFramework.xml
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-BLL\obj\Debug\eSahaf-BLL.csprojResolveAssemblyReference.cache
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-BLL\obj\Debug\eSahaf-BLL.dll
+C:\Users\TheOry Z\Documents\Visual Studio 2015\Projects\eSahafProjesi\eSahaf-BLL\obj\Debug\eSahaf-BLL.pdb
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-BLL\bin\Debug\eSahaf-BLL.dll.config
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-BLL\bin\Debug\eSahaf-BLL.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-BLL\bin\Debug\eSahaf-BLL.pdb
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-BLL\bin\Debug\EntityFramework.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-BLL\bin\Debug\eSahaf-DAL.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-BLL\bin\Debug\eSahaf-DAL.pdb
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-BLL\bin\Debug\EntityFramework.xml
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-BLL\obj\Debug\eSahaf-BLL.csprojResolveAssemblyReference.cache
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-BLL\obj\Debug\eSahaf-BLL.dll
+C:\Users\TheOry Z\Desktop\Örnek Projeler\eSahafProjesi\eSahaf-BLL\obj\Debug\eSahaf-BLL.pdb

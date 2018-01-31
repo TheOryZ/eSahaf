@@ -1,0 +1,128 @@
+﻿
+@{
+    ViewBag.Title = "AddNewProduct";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+@section head{
+<link rel="stylesheet" type="text/css" href="/Content/Admin/assets/bootstrap-datepicker/css/datepicker.css" />
+<link rel="stylesheet" type="text/css" href="/Content/Admin/assets/bootstrap-timepicker/compiled/timepicker.css" />
+<link rel="stylesheet" type="text/css" href="/Content/Admin/assets/bootstrap-colorpicker/css/colorpicker.css" />
+<link rel="stylesheet" type="text/css" href="/Content/Admin/assets/bootstrap-daterangepicker/daterangepicker-bs3.css" />
+<link rel="stylesheet" type="text/css" href="/Content/Admin/assets/bootstrap-datetimepicker/css/datetimepicker.css" />    
+
+<script type="text/javascript" src="/Content/Admin/assets/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="/Content/Admin/assets/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="/Content/Admin/assets/bootstrap-daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="/Content/Admin/assets/bootstrap-daterangepicker/daterangepicker.js"></script>
+<script type="text/javascript" src="/Content/Admin/assets/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
+<script type="text/javascript" src="/Content/Admin/assets/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                Add New Book 
+            </header>
+            <div class="panel-body">
+                <form role="form" class="form-horizontal tasi-form" action="/Admin/AddNewProduct" enctype="multipart/form-data" method="post">
+                    <div class="form-group has-success">
+                        <label class="col-lg-2 control-label">Book Name</label>
+                        <div class="col-lg-6">
+                            <input type="text" placeholder="" id="f-name" class="form-control" name="BookName">
+                            <p class="help-block">Successfully done</p>
+                        </div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                    <div class="form-group has-success"> 
+                        <label class="col-lg-2 control-label">Writer Names</label>
+                        <div class="col-lg-6">
+                            <select class="form-control m-bot15" name="WriterID">
+                                @foreach (var item in ViewBag.Writers)
+                                {
+                                    <option value="@item.WriterID">@item.WriterName</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="col-lg-4"></div>
+                        </div>
+                    <div class="form-group has-success">
+                        <label class="col-lg-2 control-label">Book Type Names</label>
+                        <div class="col-lg-6">
+                            <select class="form-control m-bot15" name="BookTypeID">
+                                @foreach (var item in ViewBag.BookTypes)
+                                {
+                                    <option value="@item.BooksTypeID">@item.BookTypeName</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="col-lg-4"></div>
+                        </div>
+                        <div class="form-group has-success">
+                            <label class="col-lg-2 control-label">Publisher Names</label>
+                            <div class="col-lg-6">
+                                <select class="form-control m-bot15" name="PublisherID">
+                                    @foreach (var item in ViewBag.Publishers)
+                                    {
+                                        <option value="@item.PublisherID">@item.PublisherName</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="col-lg-4"></div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Release Date</label>
+                                <div class="col-md-4">
+                                    <div data-date="2012-12-21T15:25:00Z" class="input-group date form_datetime-adv">
+                                        <input type="text" class="form-control" readonly="" size="16" name="ReleaseDate">
+                                        <div class="input-group-btn">
+                                            <button type="button" class="btn btn-danger date-reset"><i class="icon-remove"></i></button>
+                                            <button type="button" class="btn btn-warning date-set"><i class="icon-calendar"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Image Update-->
+                            <div class="form-group">
+                                <label class="control-label col-md-3">Book Image</label>
+                                <div class="controls col-md-9">
+                                    <div class="fileupload fileupload-new" data-provides="fileupload">
+                                        <span class="btn btn-white btn-file">
+                                            <span class="fileupload-new"><i class="icon-paper-clip"></i> Select file</span>
+                                            <input type="file" class="default" name="FileUpload" />
+                                        </span>                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group has-warning">
+                                <label class="col-lg-2 control-label">Quantity</label>
+                                <div class="col-lg-6">
+                                    <input type="text" class="spinner-input form-control" name="Quantity">
+                                    <p class="help-block">Aha you gave a wrong info</p>
+                                </div>
+                                <div class="col-lg-4"></div>
+                            </div>
+                            <div class="form-group has-warning">
+                                <label class="col-lg-2 control-label">Price</label>
+                                <div class="col-lg-6">
+                                    <input type="text" class="spinner-input form-control" name="Price">
+                                    <p class="help-block">Aha you gave a wrong info</p>
+                                </div>
+                                <div class="col-lg-4"></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-lg-offset-2 col-lg-10">
+                                    <button class="btn btn-danger" type="submit">Submit</button>
+                                </div>
+                            </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</div>

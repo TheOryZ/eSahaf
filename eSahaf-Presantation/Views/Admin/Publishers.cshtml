@@ -1,0 +1,64 @@
+﻿@model List<eSahaf_DAL.Core.Publisher>
+
+@{
+    ViewBag.Title = "Publishers";
+    Layout = "~/Views/Shared/_Admin.cshtml";
+}
+
+<section class="panel">
+    <header class="panel-heading">
+        Publishers List
+    </header>
+    <div class="panel-body">
+        <div class="adv-table editable-table ">
+            <br />
+            <div class="clearfix">
+                <div class="btn-group">
+                    <a href="/Admin/AddNewPublisher" class="btn btn-success">
+                        Add New <i class="icon-plus"></i>
+                    </a>
+                </div>
+            </div>
+            <br />
+            <div class="space15"></div>
+            <table class="table table-striped table-hover table-bordered" id="editable-sample">
+                <thead>
+                    <tr>
+                        <th>Publisher Name</th>
+                        <th>Phone</th>
+                        <th>Address</th>
+                        <th>Email</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="">
+                            <td class="center">@item.PublisherName</td>
+                            <td class="center">@item.Phone</td>
+                            <td class="center">@item.Address</td>
+                            <td class="center">@item.Email</td>
+                            <td>
+                                <a class="edit" href="/Admin/EditPublisher/@item.PublisherID">
+                                    <li class="icon-pencil">
+                                        Edit
+                                    </li>
+                                </a>
+                            </td>
+                            <td>
+                                <a class="delete" href="@Url.Action("DeletePublisher","Admin", new {publisherID = item.PublisherID })">
+                                    <li class="icon-trash">
+                                        Delete
+                                    </li>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
